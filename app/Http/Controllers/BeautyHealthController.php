@@ -8,6 +8,6 @@ class BeautyHealthController extends Controller
 {
     public function index()
     {
-        return view('Beauty And Health');
+        return view('beautyhealth');
     }
 }

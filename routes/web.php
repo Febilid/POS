@@ -32,6 +32,6 @@ Route::prefix('category')->group(function () {
 });
 
 
-Route::get('/id/{id}/name/{name}', [BuyerUserController::class, 'index']);
+Route::get('/buyeruser', [BuyerUserController::class, 'index']);
 
-Route::get('/Sale', [SaleController::class, 'index']);
+Route::get('/sales', [SaleController::class, 'index']);

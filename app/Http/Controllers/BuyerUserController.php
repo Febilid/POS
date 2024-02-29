@@ -8,6 +8,6 @@ class BuyerUserController extends Controller
 {
     public function index()
     {
-        return view('Buyer And User');
+        return view('buyeruser');
     }
 }

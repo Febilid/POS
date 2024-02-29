@@ -8,6 +8,6 @@ class FoodBevarageController extends Controller
 {
     public function index()
     {
-        return view('Food And Beverage');
+        return view('foodbeverage');
     }
 }

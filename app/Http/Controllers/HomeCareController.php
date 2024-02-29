@@ -8,6 +8,6 @@ class HomeCareController extends Controller
 {
     public function index()
     {
-        return view('Home Care Aesthetic');
+        return view('homecare');
     }
 }

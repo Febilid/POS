@@ -8,6 +8,6 @@ class BabyKidController extends Controller
 {
     public function index()
     {
-        return view('Baby Kid');
+        return view('babykid');
     }
 }
